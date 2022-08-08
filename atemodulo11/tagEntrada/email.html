@@ -1,0 +1,72 @@
+<form action="">
+    <input type="email" 
+    readonly
+    value="matheususko@gmail.cop">
+    <button type="submit">Enviar</button>
+</form>
+
+<form action="">
+    <input type="email" 
+    disabled
+    value="matheususko@gmail.cop">
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- required -->
+
+<form action="">
+    <input type="email" 
+    required>
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- multiple -->
+
+<form action="">
+    <input type="email" 
+    multiple
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- minlength / max length -->
+
+<form action="">
+    <input type="email" 
+     minlength="8"
+     maxlength="10"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- size -->
+
+<form action="">
+    <input type="email" 
+    size="25"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- pattern -->
+
+<form action="">
+    <input type="email" 
+    pattern=".+@rocketseat\.com\.br"
+    title="Somente email rocketseat.com.br irá funcionar"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- list -->
+
+<form action="">
+    <datalist id="emailslist">
+        <option>Matheususko@gmail.com</option>
+    </datalist>
+
+    <input type="email" 
+    list="emailslist"
+    >
+    <button type="submit">Enviar</button>
+</form>

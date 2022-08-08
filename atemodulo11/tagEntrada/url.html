@@ -1,0 +1,68 @@
+<form action="">
+    <input type="url"
+    placeholder="http://www.assa.com"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- min & length  -->
+
+<form action="">
+    <input type="url"
+    placeholder="http://www.assa.com"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+
+<!-- pattern  -->
+
+<form action="">
+    <input type="url"
+    placeholder="http://www.assa.com"
+    pattern=".*\.com\.br.*"
+    title="Somente dominios .com.br será aceitos"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- list  -->
+<div>
+    <datalist id="urlsdata">
+        <option value="">http://meusite.com.br</option>
+        <option value="">http://meusite.com.br</option>
+    </datalist>
+    
+    <form action="">
+        <input type="url"
+        placeholder="http://www.assa.com"
+        pattern=".*\.com\.br.*"
+        title="Somente dominios .com.br será aceitos"
+        required
+        list="urlsdata"
+        >
+        <button type="submit">Enviar</button>
+    </form>
+
+</div>
+
+<!-- spellcheck  -->
+
+    <datalist id="urlsdata">
+        <option value="">http://meusite.com.br</option>
+        <option value="">http://meusite.com.br</option>
+    </datalist>
+    
+    <form action="">
+        <input type="url"
+        placeholder="http://www.assa.com"
+        pattern=".*\.com\.br.*"
+        title="Somente dominios .com.br será aceitos"
+        required
+        list="urlsdata"
+        spellcheck="true"
+        >
+        <button type="submit">Enviar</button>
+    </form>
+
+
